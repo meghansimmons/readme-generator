@@ -1,4 +1,12 @@
 # generate-readme
+
+mardown data info
+homework
+badges and links
+
+
+
+
 ## Description
 ${data.description}
 ## Table of Contents
