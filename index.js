@@ -41,7 +41,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
         type: 'list',
         name: 'license',
         message: 'What license did you use?',
-        choices: ['MIT License', 'Apache License 2.0', 'GNU General Public License v3.0'],
+        choices: ['MIT License', 'Apache License 2.0', 'GNU General Public License v3.0','N/A'],
     },
 
     {
