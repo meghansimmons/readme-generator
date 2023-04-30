@@ -3,30 +3,10 @@
 mardown data info
 homework
 badges and links
+Badges are made with Shields.io.
+lucas-h repo for badges 
+https://choosealicense.com/licenses/mit/
+https://choosealicense.com/licenses/apache-2.0/
+https://choosealicense.com/licenses/gpl-3.0/
 
 
-
-
-## Description
-${data.description}
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#test)
-* [Questions](#questions)
-   
-## Installation
-${data.installation}
-## Usage
-${data.usage}
-## License
-${data.license}
-## Contributing
-#${data.contributing}
-## Tests
-${data.test}
-## Questions
-${data.github}
-${data.email}
