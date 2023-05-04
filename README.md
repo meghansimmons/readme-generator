@@ -6,7 +6,13 @@
 
 This application generates a high-quality README file with user input. Users should strive to provide a README.md to describe their project, give installation and usage instructions and to give contact information in case of questions. 
 
-For this particular project, this README file will be at the root level because it  describes this project. An example of a README.md created from this application will be renamed to 'sampleREADME.md' and moved to the assets folder. A video walk-thru of the creation of the sampleREADME file can be found at 'add site link here'. Please see the following screenshots of the Terminal prompts as well as the generated markdown README file (sampleREADME.md).
+For this particular project, this README file will be at the root level because it  describes this project. An example of a README.md created from this application has been renamed to 'sampleREADME.md' and moved to the assets folder. 
+
+A video walk-thru of the creation of the sampleREADME file can be found through this link - [sampleREADME.md video](https://drive.google.com/file/d/1qYvoMmd7skWTxC_IPNt6mgIcVc01iwWb/view). Please see the following screenshots of the terminal prompts as well as the generated markdown README file (sampleREADME.md).
+
+<img width="528" alt="README Generator_Terminal" src="https://user-images.githubusercontent.com/128755783/236343537-452a213c-2743-4f7d-ade1-816462909928.png">
+
+<img width="426" alt="sampleREADME_image" src="https://user-images.githubusercontent.com/128755783/236344029-106980c6-2024-4455-923d-0fd3915f3f22.png">
 
 
 ## Installation
