@@ -1,3 +1,4 @@
+// constants for badge and link information for licenses
 const mitLicenseBadge = "![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)";
 const apacheLicenseBadge = "![Apache License](https://img.shields.io/badge/license-Apache_2.0-blue.svg)";
 const gplv3LicenseBadge = "![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)";
@@ -10,8 +11,7 @@ const arrayLicenseLink = [mitLicenseLink, apacheLicenseLink, gplv3LicenseLink, "
 
 const arrayLicense = ["MIT License", "Apache License 2.0", "GNU General Public License v3.0", "N/A"];
 
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// function renderLicenseBadge returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
   for(let i = 0; i < arrayLicense.length; i++){
     if(license == arrayLicense[i]){
@@ -19,8 +19,7 @@ function renderLicenseBadge(license) {
     }
   }
 }
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// function renderLicenseLink returns the license link for license passed in
 function renderLicenseLink(license) {
   for(let i = 0; i < arrayLicense.length; i++){
     if(license == arrayLicense[i]){
@@ -29,8 +28,8 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// function renderLicenseSection returns a message with the license name and link to the license section of the README
+// If there is no license, it returns an empty string
 function renderLicenseSection(license) {
   for(let i = 0; i < arrayLicense.length; i++){
     if(license == arrayLicense[3]){
@@ -41,7 +40,7 @@ function renderLicenseSection(license) {
   }
 }
 
-//function generateMarkdown generates a markdown for README
+//function generateMarkdown generates a markdown file for a README with user input from the integrated terminal
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
@@ -54,7 +53,7 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
-  * [Tests](#test)
+  * [Tests](#tests)
   * [Questions](#questions)
    
   ## Installation
